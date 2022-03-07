@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MoodyArt</title>
+  <script src="https://kit.fontawesome.com/ddee2eeed7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Poppins:wght@200;300;400;500;700&family=Redressed&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="mainBox">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanlded="false" aria-label="Toggle navigation" id="btn">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 invisible" id="ul1">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html" title="visit gallery">Gallery</a>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="LogoContentImgbox">
+      <!-- logo & content -->
+      <div class="box">
+        <!-- logo -->
+        <div class="logo">
+          <img src="moodyArtLogoInCircle.png" alt="" />
+        </div>
+
+        <!-- content->text,colorop,button -->
+        <div class="content">
+          <p>I prefer living in colours . Select your colour</p>
+
+          <div class="colorOPs">
+            <!-- <!-display->flex -->
+            <div class="colorBorder" title="">
+              <div class="color1 colorB" id="color1" onclick="color(this)"></div>
+            </div>
+            <div class="colorBorder" title="">
+              <div class="color2 colorB" id="color2" onclick="color(this)"></div>
+            </div>
+            <div class="colorBorder" title="">
+              <div class="color3 colorB" id="color3" onclick="color(this)"></div>
+            </div>
+            <div class="colorBorder" title="">
+              <div class="color4 colorB" id="color4" onclick="color(this)"></div>
+            </div>
+          </div>
+          <div class="buttonn">
+            <button class="btn1" title="visit gallery">
+              <a href="gallery.html">Gallery</a>
+            </button>
+            <button type="button" class="buttonnContact"><a href="mailto: preetisaini.2600@gmail.com">Contact</a></button>
+            </div>
+
+
+          <!-- footer -->
+          <div class="social social2">
+            <a href="https://www.facebook.com/moodyyaart/"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/moodyyaart?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com/channel/UCQBhWlmxUoOmbbV1HaqoHUA"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <!-- the image slider/box -->
+      <div class="sideColorBox" id="sideColorBox">
+
+        <div class="imageBox1" id="imgBox1">
+          <div class="imgBox">
+            <div class="txt">
+              <h1>Do not yell , Let's paint 🎨</h1>
+
+              <button class="btn2" title="visit gallery">
+                <a href="gallery.html">Gallery</a>
+              </button>
+
+            </div>
+            <div class="img">
+              <img src="painting.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="imgBox2" id="imgBox2">
+          <div class="imgBox">
+            <div class="txt" id="txt1">
+              <h1>Be calm & think 🤔</h1>
+
+              <button class="btn2" title="visit gallery">
+                <a href="gallery.html">Gallery</a>
+              </button>
+
+            </div>
+            <div class="img">
+              <img src="thinking.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="imgBox3" id="imgBox3">
+          <div class="imgBox">
+            <div class="txt">
+              <h1>Capture the blue's 📸</h1>
+              <button class="btn2" title="visit gallery">
+                <a href="gallery.html">Gallery</a>
+              </button>
+            </div>
+            <div class="img img3">
+              <img src="camera.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="imgBox4" id="imgBox4">
+          <div class="imgBox">
+            <div class="txt" id="txt2">
+              <h1>Ready to edit 🎥</h1>
+              <div class="button2">
+                <button class="btn2" title="visit gallery">
+                  <a href="gallery.html">Gallery</a>
+                </button>
+              </div>
+            </div>
+            <div class="img">
+              <img src="videoEditing.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- footer -->
+    <section class="footer">
+      
+      <div class="button sendMsg">
+        <button type="button" class="btn btn-primary"><a href="mailto: preetisaini.2600@gmail.com">Contact</a></button>
+      </div>
+  
+      <div class="social social1">
+        <a href="https://www.facebook.com/moodyyaart/"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com/moodyyaart?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+        <a href="https://youtube.com/channel/UCQBhWlmxUoOmbbV1HaqoHUA"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p class="text-center">moody@rt</p>
+    </section>
+
+  </div>
+  <!-- js -->
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <script>
+    const btn = document.getElementById("btn");
+    const ul1 = document.getElementById("ul1");
+
+    btn.addEventListener("click", () => {
+      ul1.style.display = "none";
+    })
+  </script>
+
+</body>
+
+</html>
